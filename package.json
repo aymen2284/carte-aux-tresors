@@ -1,0 +1,26 @@
+{
+  "name": "carte-aux-tresors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node src/index.js -o=assets/output.txt",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "preset": "ts-jest",
+  "transform": {
+    "^.+\\.(ts|tsx)?$": "ts-jest",
+    "^.+\\.(js|jsx)$": "babel-jest"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "ts-jest": "^29.1.0"
+  }
+}
